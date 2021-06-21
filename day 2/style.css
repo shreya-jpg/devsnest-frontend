@@ -1,0 +1,12 @@
+body{
+    background-color: olivedrab;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: yellow;
+    font-weight: bolder;
+}
+div{
+    color: white;
+    font-size: 20px;
+}

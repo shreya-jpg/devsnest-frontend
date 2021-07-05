@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>THA 14</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="THA14.css">
+    </head>
+    
+    <body onafterprint="myFunction()">
+
+           
+        
+            <div class="main">
+                <div class="header">
+                    <h1>Let's Play!</h1>
+                </div>
+                <div class="block-count">
+                    <p>Active Blocks Count</p>
+                    <p id="active-blocks">0</p>
+                    <p>Inactive blocks Count</p>
+                    <p id="inactive-blocks">16</p>
+                </div>
+                <div class="main-div">
+                    <div id="text-area">
+                        <p id="text">Click on the blocks to play with the counters..Click all of them to win!!</p>
+                        <p id="safeTimerDisplay">TIMER</p>
+                        <button class="button" id="btn1" onclick="start(this.id)">Let's Go</button>
+                    </div>
+                    <div id="show-div">
+                        <div class="box-start" id="box-start">
+        
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+            
+            <script src="THA14.js" async defer></script>
+        </body>
+        
+        
+</html>

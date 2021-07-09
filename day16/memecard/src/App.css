@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Card{
+  border: 1px solid rgb(70, 66, 66);
+  padding: 10px 20px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.Card img{
+  width: 100%;
+}

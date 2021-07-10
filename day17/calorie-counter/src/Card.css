@@ -1,0 +1,13 @@
+.item{
+    margin-top: 10px;
+    width: 40vh;
+    background-color: #6b8e23;
+    border-radius: 5px ;
+    border-color: none;
+    box-shadow: 3px 1px 9px -1px #3d581a;
+    padding: 5px;
+}
+.item h3{
+    font-size: 20px;
+    color: black;
+}

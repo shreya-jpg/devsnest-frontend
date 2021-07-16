@@ -1,0 +1,51 @@
+.App
+{
+  display:-webkit-flex;
+  display:flex;
+  -webkit-flex-direction:column;
+  flex-direction:column;
+  -webkit-align-items:center;
+  align-items:center
+}
+.cal-app-container
+{
+  width:350px;
+  height:400px;
+  padding:10px;
+  overflow-y:auto;
+  overflow-x:hidden;
+  box-shadow:2px 3px 9px -1px #000
+}
+.Card
+{
+  width:90%;
+  background:#6b8e23;
+  margin:6px;
+  border-radius:5px;
+  box-shadow:3px 1px 9px -1px #3d581a;
+  height:90px;
+  padding:15px
+}
+.Card h2
+{
+  margin-bottom:0
+}
+.instructions
+{
+  min-height:60px;
+  padding:15px 0
+}
+.instructions>h1
+{
+  text-align:center
+}
+.Card .action
+{
+  display:-webkit-flex;
+  display:flex;
+  -webkit-justify-content:space-between;
+  justify-content:space-between;
+  -webkit-align-items:center;
+  align-items:center;
+  height:30px
+}

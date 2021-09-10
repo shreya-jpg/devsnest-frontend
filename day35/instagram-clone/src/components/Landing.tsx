@@ -1,6 +1,8 @@
 import React from "react";
 import { useSelector } from "react-redux";
-const Landing = () => {
+import { PostType } from "../App";
+import Post from "./Post";
+const Landing = ({ post }: { post: PostType[] }) => {
     const user = useSelector((state:any) => state.user);
     return(
         <div className="container landing">
@@ -12,6 +14,17 @@ const Landing = () => {
                               <img src={user.profilePicture} alt="" />
                             </div>
                         ))}
+                        
+                    </div>
+                    <div className="posts">
+                        {
+                            post.length > 0 ? (
+                                post.map((post) => (
+                                    <Post post={post} />
+                                ))
+
+                            ) :null
+                        }
                         
                     </div>
                 </div>

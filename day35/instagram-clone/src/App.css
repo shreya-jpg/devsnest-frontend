@@ -69,3 +69,11 @@ body{
   display: flex;
   justify-content: space-between;
 }
+.post .buttons i {
+  cursor: pointer;
+  font-size: 1.5em;
+  margin: 10px;
+}
+i.bi.bi-heart-fill.Liked {
+  color: #da2d3b;
+}

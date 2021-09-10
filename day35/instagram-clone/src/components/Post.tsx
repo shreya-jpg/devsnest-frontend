@@ -1,6 +1,7 @@
 import React from "react";
 import { PostType } from "../App";
 const Post = ({post}: {post: PostType}) => {
+    const [isLiked, setIsLiked] = React.useState(false);
     return (
     <div className="card post">
         <div className="card-header">
@@ -8,7 +9,14 @@ const Post = ({post}: {post: PostType}) => {
             <i className="bi bi-three-dots"></i>
         </div>
         <img src={post.post} className="card-img-top" alt="..." />
-            
+         <div className="buttons">
+            <i className={isLiked ? "bi bi-heart-fill Liked" : "bi bi-heart"} onClick={() => {
+                setIsLiked(!isLiked)
+            }}></i>
+            <i className="bi bi-chat"></i>
+            <i className="bi bi-share"></i>  
+        
+         </div>   
     </div>
     );
 };

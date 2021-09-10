@@ -2,8 +2,19 @@
 .container {
   max-width: 1000px;
 }
-.navbar {
-}
 .navbar .navbar-nav {
   margin-left: auto;
+}
+.navbar .navbar-nav i {
+  font-size: 1.5em;
+  color: #000;
+  padding: 0px 5px;
+}
+.navbar .search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navbar .search input {
+  width: 200px;
 }
